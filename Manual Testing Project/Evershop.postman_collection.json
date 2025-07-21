@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "6f91673f-992f-4325-9d7f-a0496f86b341",
+		"name": "Evershop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45607093"
+	},
+	"item": [
+		{
+			"name": "Search \"Nike React\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/search?keyword=nike+react",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"search"
+					],
+					"query": [
+						{
+							"key": "keyword",
+							"value": "nike+react"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View \"Nike odyssey react flyknit 2\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/women/nike-odyssey-react-flyknit-2-160",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"women",
+						"nike-odyssey-react-flyknit-2-160"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Select \"Nike React Blue-S\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/women/nike-odyssey-react-flyknit-2-160?size=25&color=8&ajax=true",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"women",
+						"nike-odyssey-react-flyknit-2-160"
+					],
+					"query": [
+						{
+							"key": "size",
+							"value": "25"
+						},
+						{
+							"key": "color",
+							"value": "8"
+						},
+						{
+							"key": "ajax",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add to cart [Nike React Blue-S]",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"productId\": 157,\r\n  \"qty\": 2,\r\n  \"sku\": \"NJC93155-Blue-S\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://demo.evershop.io/api/cart/mine/items",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"api",
+						"cart",
+						"mine",
+						"items"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "View cart",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/cart",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Select \"Nike React Black-S\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://demo.evershop.io/women/nike-odyssey-react-flyknit-2-160?color=14&size=25&ajax=true",
+					"protocol": "https",
+					"host": [
+						"demo",
+						"evershop",
+						"io"
+					],
+					"path": [
+						"women",
+						"nike-odyssey-react-flyknit-2-160"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "14"
+						},
+						{
+							"key": "size",
+							"value": "25"
+						},
+						{
+							"key": "ajax",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
