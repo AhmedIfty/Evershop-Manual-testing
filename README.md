@@ -1,6 +1,6 @@
 #  Manual Testing Project - Evershop Cart & Search Feature
 
-This project was completed as part of the **SQA: Manual and Automation Testing Course** by Ostad. It demonstrates the application of **manual testing techniques** to test the **Cart** and **Search** functionalities of the [Evershop](https://evershop.io/) web application.
+This project was completed as part of the **SQA: Manual and Automation Testing Course** by Ostad. It demonstrates the application of **manual testing techniques** to test the **Cart** and **Search** functionalities of the [Evershop]([https://evershop.io/](https://demo.evershop.io/)) web application.
 
 ##  Project Structure
 
